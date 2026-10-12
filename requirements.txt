@@ -1,0 +1,16 @@
+# BioGuard SCG — Python dependencies
+# Install: pip install -r requirements.txt
+
+torch>=2.0.0
+transformers>=4.40.0
+datasets>=2.18.0          # optional: for AdvBench / Alpaca HuggingFace loading
+scikit-learn>=1.4.0       # AUROC, F1, classification report
+numpy>=1.24.0
+tqdm>=4.66.0
+
+# Optional: GPU acceleration
+# torch-gpu is handled by PyTorch index URL — see pytorch.org/get-started
+
+# Optional: for graph visualization
+# networkx>=3.1
+# matplotlib>=3.8
